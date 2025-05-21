@@ -1,0 +1,211 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    background: #171718;
+}
+
+.nav {
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid #26292d;
+
+    .container {
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        row-gap: 10px;
+    }
+
+    .container__logo{
+        
+    }
+
+    .container__logo h1 span {
+        font-weight: 700;
+    }
+
+    .container__logo h1 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 100%;
+        color: #fff;
+        row-gap: 20px;
+    }
+
+    .container-list ul{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 40px;
+    }
+
+    .container-list ul li {
+    }
+
+    .container-list ul li a {
+        color: #fff;
+    }
+
+    .container-list ul li a:hover {
+        border-bottom: 3px solid #5c62ec;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/header.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    .header__container {
+        margin-top: 40px;
+        width: 628px;
+        height: 628px;
+    }
+
+    .header__container h2 {
+        margin-top: 140px;
+        font-weight: 700;
+        font-size: 60px;
+        text-align: center;
+        color: #fafafa;
+    }
+
+    .header__container span:first-child {
+        color: #5c62ec;
+    }
+
+    .header__container span:last-child {
+        display: block;
+        font-size: 40px;
+        line-height: 140%;
+    }
+
+    .header__container p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 133%;
+        letter-spacing: -0.03em;
+        text-align: center;
+        color: #fff;
+        margin-top: 20px;
+    }
+
+    .header__container-dowload {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .header__container a {
+        padding: 12px 28px;
+        background: #5c62ec;
+        border-radius: 5px;
+        color: #fff;
+    }
+
+    .header__container a:hover {
+        background-color: #3f45ed;
+    }
+}
+
+.section {
+    background-color: #fff;
+    padding: 70px 0;
+
+    .container {
+        margin: 0 auto;
+        padding: 0 15px;
+        max-width: 1200px;
+    }
+
+    .title-1 {
+        margin-bottom: 60px;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 130%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: #5c62ec;
+    }
+
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+    .project {
+        border-radius: 10px;
+        max-width: 370px;
+        box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.25);
+
+        .project img {
+            border-radius: 10px;
+        }
+        .project__title {
+            padding: 15px 20px 25px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 130%;
+            letter-spacing: -0.02em;
+            color: #171718;
+        }
+    }
+}
+
+footer {
+
+    margin-top: auto;
+    padding: 60px 0 50px;
+
+    .footer__wrapper {
+        display: flex;
+        justify-content: center;
+        row-gap: 27px;
+
+        .social {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 30px;
+            row-gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .header {
+        .header__container {
+            h2 {
+                font-size: 50px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .section {
+        .projects {
+            .project {
+                a {
+                    img {
+                        width: 320px;
+                    }
+                }
+                h3 {
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+}
