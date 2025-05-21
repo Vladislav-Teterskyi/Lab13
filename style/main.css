@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
   font-family: "DM Sans", sans-serif;
   background: #171718;
@@ -135,6 +136,149 @@ body {
   line-height: 130%;
   letter-spacing: -0.02em;
   color: #171718;
+}
+
+.aboutme {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f9f9f9, #e6f0ff);
+  color: #2c3e50;
+}
+.aboutme .container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.aboutme .title-1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #1e3a8a;
+}
+.aboutme .main-text {
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: justify;
+  white-space: pre-line;
+}
+.aboutme .main-text ul {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.aboutme .main-text ul li {
+  margin-bottom: 8px;
+}
+
+.mycontact {
+  height: 815px;
+  background-color: #fff;
+}
+.mycontact .container {
+  padding-top: 70px;
+}
+.mycontact .container .container__title h3 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #5c62ec;
+}
+.mycontact .container .container__location {
+  margin-top: 40px;
+}
+.mycontact .container .container__location h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  text-align: center;
+  color: #171718;
+  letter-spacing: -0.01em;
+}
+.mycontact .container .container__location p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #171718;
+}
+.mycontact .container .container__messanger {
+  margin-top: 40px;
+}
+.mycontact .container .container__messanger h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  text-align: center;
+  color: #171718;
+  letter-spacing: -0.01em;
+}
+.mycontact .container .container__messanger p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #171718;
+}
+.mycontact .container .container__email {
+  margin-top: 40px;
+}
+.mycontact .container .container__email h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  text-align: center;
+  color: #171718;
+  letter-spacing: -0.01em;
+}
+.mycontact .container .container__email p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #171718;
+}
+
+.posts {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+.posts .title-1 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #5c62ec;
+}
+.posts .posts__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+.posts .project {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+.posts .project img {
+  width: 420px;
+  height: 250px;
+  border-radius: 12px;
+}
+.posts .project h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
 }
 
 footer {
